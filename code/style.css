@@ -44,36 +44,29 @@ h1{
   padding-left: 40px;
 }
 
-.active > .icon-blue{
+.active > .icon-collapse{
   display: block;
   visibility: visible;
   }
 
-.active > .icon-white{
+.active > .icon-expand{
   display: none;
   visibility: hidden;
   }
 
-.icon-white {
+.icon-expand {
   float: left;
   align-items: center;
   margin-right: 10px;
-  border-radius: 50%;
-	width: 20px;
-	height: 20px;
-  background-color: white;
   z-index: +1;
+
 }
 
-.icon-blue{
+.icon-collapse {
   display: none;
   float: left;
   align-items: center;
   margin-right: 10px;
-  border-radius: 50%;
-	width: 20px;
-	height: 20px;
-  background-color: darkblue;
   z-index: +1;
   text-align: center;
 }

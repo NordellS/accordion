@@ -5,38 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <title>
-      <h1>
         Accordion
-      </h1>
     </title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="accordion" role=tablist aria-multiselectable="true">
-      <h1>Accordion width aria-expanded attribute</h1>
+      <h1>
+        Accordion
+      </h1>
       <button class="title" id="sectionOne" role="tab" aria-expanded="false" aria-controls="collapseOne">
         <img src="expanded.png" class="icon-expand" alt="Expand">
         <img src="collapse.png" class="icon-collapse" alt="Collapse">
-        Section 1
+        <h2>
+          Can monkeys count?
+        </h2>
       </button>
       <div class="description" id="collapseOne" role="tabpanel" aria-labelledby="sectionOne" tabindex="1">
-        <p>Lorem ipsum...</p>
+        <p>
+          Monkeys can understand written numbers and can even count.
+          They can also understand basic parts of arithmetic and even,
+          in rare cases, multiplication.
+        </p>
       </div>
       <button class="title" id="sectionTwo" role="tab" aria-expanded="false" aria-controls="collapseTwo">
       <img src="expanded.png" class="icon-expand" alt="Expand">
       <img src="collapse.png" class="icon-collapse" alt="Collapse">
-        Section 2
+      <h2>
+        How do male capuchin monkeys attract a partner?
+      </h2>
       </button>
       <div class="description" id="collapseTwo" role="tabpanel" aria-labelledby="sectionTwo" tabindex="1">
-        <p>Lorem ipsum...</p>
+        <p>
+          To attract a female partner, male capuchin monkeys will urinate
+          in their hands and then rub it thoroughly into their fur.
+        </p>
       </div>
       <button class="title" id="sectionThree" role="tab" aria-expanded="false" aria-controls="collapseThree">
         <img src="expanded.png" class="icon-expand" alt="Expand">
         <img src="collapse.png" class="icon-collapse" alt="Collapse">
-        Section 3
+        <h2>
+          Do monkeys floss their teeth?
+        </h2>
       </button>
       <div class="description" id="collapseThree" role="tabpanel" aria-labelledby="sectionThree" tabindex="1">
-        <p>Lorem ipsum...</p>
+        <p>Yes! Scientists observed female monkeys teaching their young how to floss their teeth.</p>
       </div>
     </div>
     <!-- Link to JS file -->

@@ -7,11 +7,17 @@ html {
 p{
   text-align: left;
   color: black;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 h1{
   padding-left: 5px;
+}
+
+h2{
+  text-align: left;
+  color: black;
+  font-size: 15px;
 }
 
 .accordion{
@@ -45,7 +51,7 @@ button {
   justify-content: flex-start;
   color: black;
   padding: 10px;
-  width: 290px;
+  width: 280px;
   font-size: 16px;
   margin: 1px;
 }
@@ -58,7 +64,6 @@ button {
 .active + .description{
   display: block;
   visibility: visible;
-  padding-left: 40px;
   width: 250px;
 }
 
@@ -85,5 +90,4 @@ button {
   align-items: center;
   margin-right: 10px;
   z-index: +1;
-  text-align: center;
 }

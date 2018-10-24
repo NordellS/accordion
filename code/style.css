@@ -15,31 +15,39 @@ h1{
 }
 
 .accordion{
-  width: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#section1, #section3{
+#sectionOne, #sectionThree{
   background-color: #CEE0DC;
 }
 
-#section1:hover, #section3:hover {
+#sectionOne:hover, #sectionThree:hover {
   background-color: #b1d6cd;
 }
 
-#section2:hover{
+#sectionTwo:hover{
   background-color: #93bbc4;
 }
 
-
-#section2{
+#sectionTwo{
   background-color: #B9CFD4;
 }
 
-.title{
-  align-items: flex-start;
-  justify-content: space-between;
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
   color: black;
   padding: 10px;
+  width: 290px;
+  font-size: 16px;
+  margin: 1px;
 }
 
 .description{
@@ -51,6 +59,7 @@ h1{
   display: block;
   visibility: visible;
   padding-left: 40px;
+  width: 250px;
 }
 
 .active > .icon-collapse{
@@ -61,7 +70,7 @@ h1{
 .active > .icon-expand{
   display: none;
   visibility: hidden;
-  }
+}
 
 .icon-expand {
   float: left;
@@ -77,9 +86,4 @@ h1{
   margin-right: 10px;
   z-index: +1;
   text-align: center;
-}
-
-
-
-
 }

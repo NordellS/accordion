@@ -5,8 +5,8 @@ function toggleClass() {
 
 
 // Selects and HTML element, and calls a function which will be executed when the element is clicked.
-document.getElementById("section1").onclick = toggleClass
-document.getElementById("section2").onclick = toggleClass
-document.getElementById("section3").onclick = toggleClass
+document.getElementById("sectionOne").onclick = toggleClass
+document.getElementById("sectionTwo").onclick = toggleClass
+document.getElementById("sectionThree").onclick = toggleClass
 
 // // text icon - expand collaps
